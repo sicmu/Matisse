@@ -14,7 +14,7 @@
   limitations under the License.
   -->
 <resources>
-    <color name="zhihu_primary">#f06292</color>
+    <color name="zhihu_primary">#ba2d65</color>
     <color name="zhihu_primary_dark">#ba2d65</color>
 
     <color name="zhihu_album_popup_bg">#FFFFFF</color>
