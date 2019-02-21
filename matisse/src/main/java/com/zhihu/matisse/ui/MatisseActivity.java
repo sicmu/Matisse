@@ -413,7 +413,7 @@ public class MatisseActivity extends AppCompatActivity implements
         intent.addCategory(INTENT_CATEGORY_PLAY);
         intent.putExtra("info", item);
         try {
-            startActivity(intent);
+            startActivityForResult(intent, REQUEST_CODE_PREVIEW);
         } catch (ActivityNotFoundException e) {
             Toast.makeText(this, R.string.error_no_video_activity, Toast.LENGTH_SHORT).show();
         }
